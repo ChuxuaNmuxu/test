@@ -1,0 +1,30 @@
+{
+  "name": "webpack-hmr",
+  "version": "0.0.0",
+  "description": "hmr",
+  "keywords": [
+    "hmr"
+  ],
+  "author": "avlin.sun <alvin.sun@klook.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/webpack-hmr.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.3"
+  }
+}
